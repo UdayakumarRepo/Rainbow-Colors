@@ -15,16 +15,16 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Rainbow Colors"
+  spec.name         = "RainbowColors"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of Rainbow Colors."
+  spec.summary      = "Framework to get the color of Rainbow"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Rainbow Colors"
+  spec.description  = "Rainbow Colors - Framework to get the color of Rainbow"
 
   spec.homepage     = "https://github.com/UdayakumarRepo/Rainbow-Colors.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,7 +89,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Rainbow Colors/**/&"
+  spec.source_files  = "Rainbow Colors/**/*"
+
+  spec.swift_version = '5.0'
 
   # spec.public_header_files = "Classes/**/*.h"
 
